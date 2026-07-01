@@ -1,1 +1,20 @@
-
+body{
+    background-color:blue;
+    color:crimson;
+}
+header{
+    background-color:blueviolet;
+    color:black;
+}
+main{
+    background-color:aqua;
+    color:darkblue;
+}
+section{
+    background-color:deeppink;
+    color:darkmagenta;
+}
+footer{
+    background-color:darkred;
+    color:blanchedalmond;
+}
