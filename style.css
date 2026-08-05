@@ -6,7 +6,7 @@ body{
 header{
     background-color:blueviolet;
     color:rgb(240, 229, 229); 
-    text align:center;
+    text align: center;
     padding:30px;
 }
 h1{
@@ -18,4 +18,4 @@ h2{
 p{
  font-size: 18px;
  line-height: 1.6;
-}
+} 
