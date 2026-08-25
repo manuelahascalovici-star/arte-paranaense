@@ -1,11 +1,12 @@
 body {
-    background-color: rgb(255, 255, 255);
-    color: rgb(14, 13, 13);
+    background-color: hsla(36, 87%, 62%, 0.63);
+    color: #a4b135c9;
     font-family: Arial, sans-serif;
+    margin: 0;
 }
 
 header {
-    background-color: blueviolet;
+    background-color: #2be23abb;
     color: rgb(240, 229, 229);
     text align: center;
     padding: 30px;
@@ -16,12 +17,20 @@ h1 {
 }
 
 h2 {
-    color: blueviolet;
+    color: #31e22b54;
 }
 
 p {
     font-size: 18px;
     line-height: 1.6;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    
 }
 
 main {
@@ -30,7 +39,7 @@ main {
 }
 
 select {
-    background-color: white;
+    background-color: #070606;
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
