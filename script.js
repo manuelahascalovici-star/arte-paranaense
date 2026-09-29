@@ -1,15 +1,16 @@
-const botoensCurtir = document.querySelectorAll(".Curtir");
-botoesCurtir.forEach(function(botoensCurtir) {
+const botoesCurtir = document.querySelectorAll(".curtir");
+botoesCurtir.forEach(function(botaoCurtir) {
     let curtiu =false;
-    botoensCurtir.addEventListener("click,curtir");
-    function curtir|(){
-        const contador = botoensCurtir.querySelector("span");
-        if(curtiu===false){
+    botaoCurtir.addEventListener("click",curtir);
+    function curtir(){
+        const contador = botaoCurtir.querySelector("span");
+        if(curtiu === false){
             contador.textContent++;
-            curtiu= true;}
+            curtiu = true;
+        }
             else{
                 contador.textContent--;
-                curtiu=false;
+                curtiu = false;
             }
         }
     });

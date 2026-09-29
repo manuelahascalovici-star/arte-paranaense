@@ -1,13 +1,13 @@
 body {
-    background-color: hwb(118 29% 5% / 0.63);
-    color: #a4b135c9;
+    background-color: hwb(0 1% 99%);
+    color: #0c0c09;
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
 header {
     background-color: #2be23abb;
-    color: rgb(240, 229, 229);
+    color: rgb(240, 229, 229);    
     text-align : center;
     padding: 30px;
 }
