@@ -1,12 +1,25 @@
+:root{
+  --cor-fundo: ;
+  --cor-texto: ;
+  --cor-principal: ;
+  --cor-secundaria: ; 
+  --cor-hover: ;
+  --cor-superficie: ;
+  --cor-card: ;
+  --cor-legenda: ;
+  --cor-clara: ;
+  --cor-rodape: ;
+}
+
 body {
-    background-color: hwb(0 1% 99%);
+    background-color:var(--cor-card) ;
     color: #0c0c09;
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
 header {
-    background-color: #2be23abb;
+    background-color: var(--cor-clara);
     color: rgb(240, 229, 229);
     text-align: center;
     padding: 30px;
@@ -17,7 +30,7 @@ h1 {
 }
 
 h2 {
-    color: #31e22b54;
+    color: var(--cor-clara);
 }
 
 p {
